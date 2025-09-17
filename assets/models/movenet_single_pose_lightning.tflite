@@ -1,0 +1,9 @@
+# This is a placeholder file for the MoveNet AI model
+# In production, you would download the actual model from TensorFlow Hub
+# 
+# To get the real model:
+# 1. Go to https://tfhub.dev/google/movenet/singlepose/lightning/4
+# 2. Download the .tflite file
+# 3. Replace this file with the actual model
+#
+# For now, the app will work with mock AI analysis

@@ -1,0 +1,50 @@
+name: sai_talent_app
+description: Offline-first SAI talent assessment mobile app
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  camera: ^0.11.0+2
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  # tflite_flutter: ^0.10.4  # Not compatible with web
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  dio: ^5.5.0+1
+  connectivity_plus: ^6.1.0
+  shared_preferences: ^2.3.2
+  geolocator: ^13.0.1
+  # Additional dependencies for complete app
+  go_router: ^14.2.7
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  fl_chart: ^0.68.0
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  animations: ^2.0.11
+  lottie: ^3.1.2
+  flutter_staggered_animations: ^1.1.1
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  badges: ^3.1.2
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/movenet_single_pose_lightning.tflite
+
+
